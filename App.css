@@ -1,0 +1,83 @@
+@media screen and (max-width: 640px) {
+  .head {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 20px;
+  }
+
+  .logo-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .menu > button {
+    background-color: rgb(133, 130, 130);
+    border-radius: 10px;
+    padding: 3px;
+  }
+
+  .body {
+    background-color: black;
+  }
+
+  .body-content {
+    color: white;
+    padding: 40px 10px 30px 10px;
+  }
+
+  .bodycontent-1 > p {
+    font-size: 30px;
+  }
+
+  .para1 {
+    margin-bottom: 5px;
+  }
+
+  .body-content3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button1 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(118, 6, 173);
+    border-color: rgb(118, 6, 173);
+    color: white;
+  }
+
+  .button2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(105, 100, 100, 0.571);
+    border-color: rgba(105, 100, 100, 0.571);
+  }
+
+  .foot-images {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .foot-content > p {
+    font-size: 20px;
+  }
+}
